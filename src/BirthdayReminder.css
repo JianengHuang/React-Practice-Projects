@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 4rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Licorice', cursive;
+    background: lightcoral;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: white;
+}
+
+img {
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+button {
+    font-family: inherit;
+    width: 100px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;;
+    background-color: transparent;
+    font-weight: 700;
+    margin: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.container {
+    background: #1d1e20;
+    -moz-box-shadow: 0 0 3px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 3px rgb(0, 0, 0);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    width: 550px;
+    border-radius: 0.25rem;
+    padding: 1.5rem 2rem;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 0.75rem;
+    column-gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 10px;
+}
+
+.button-surround {
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.clear-btn {
+    background-color: rgb(236, 94, 94);
+    display: block;
+    width: 20rem;
+    box-sizing: border-box;
+}
